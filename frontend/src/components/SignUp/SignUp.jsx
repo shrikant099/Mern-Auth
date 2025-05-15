@@ -38,7 +38,7 @@ const SignUp = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/v1/user/register",
+        "https://mern-auth-vowh.onrender.com/api/v1/user/register",
         {
           name,
           email,
