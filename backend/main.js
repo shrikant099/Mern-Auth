@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174" , "https://mern-auth-vowh.onrender.com"],
+    origin: ["http://localhost:5173", "http://localhost:5174" , "https://brilliant-pony-e88ddc.netlify.app"],
     methods: ["GET", "PUT", "POST", "DELETE"],
   })
 );
