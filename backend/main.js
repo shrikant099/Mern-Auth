@@ -16,8 +16,13 @@ app.use(
   })
 );
 
+
 app.get("/", (req, res) => {
   res.send("Helo from express...");
+});
+
+app.get("/about", (req, res) => {
+  res.send("Helo from about page...");
 });
 
 // userRoutes
